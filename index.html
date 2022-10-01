@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script defer src="./script/script.js"></script>
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+
+<body>
+  <section class="card__container">
+    <div id="card__inner" class="card__inner">
+      <div class="card__front">
+        <picture class="card__star">
+          <img src="./images/icon-star.svg" alt="Star">
+        </picture>
+        <div class="card__text">
+          <h1>How did we do?</h1>
+          <p>Please let us know how we did with your support request. All feedback is appreciated
+            to help us improve our offering!</p>
+        </div>
+        <ul class="card__form">
+          <li>
+            <p class="form__rating">1</p>
+          </li>
+          <li>
+            <p class="form__rating">2</p>
+          </li>
+          <li>
+            <p class="form__rating">3</p>
+          </li>
+          <li>
+            <p class="form__rating">4</p>
+          </li>
+          <li>
+            <p class="form__rating">5</p>
+          </li>
+          </li>
+        </ul>
+        <h3 class="card__submit" id="submit">Submit</h3>
+      </div>
+      <div class="card__back">
+        <picture>
+          <img src="./images/illustration-thank-you.svg" alt="Phone">
+        </picture>
+        <p id="selection__text" class="selection__text"></p>
+        <div class="back__text">
+          <h2> Thank you!</h2>
+          <p> We appreciate you taking the time to give a rating. If you ever need more support,
+            don’t hesitate to get in touch!</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
